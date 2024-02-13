@@ -26,12 +26,7 @@ class MainActivity : AppCompatActivity(),OnClickListener {
         binding = ActivityMainBinding.inflate(layoutInflater)
         binding.test.setOnClickListener(this)
         setContentView(binding.root)
-
-
-
-
-
-         navController= findNavController(R.id.nav_host_fragment_activity_main)
+        navController= findNavController(R.id.nav_host_fragment_activity_main)
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         val appBarConfiguration = AppBarConfiguration(

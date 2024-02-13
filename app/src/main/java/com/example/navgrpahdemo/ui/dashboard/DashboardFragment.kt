@@ -107,7 +107,7 @@ class DashboardFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        Log.d(TAG,"OnViewCreated Being Called")
+        Log.d(TAG,"OnViewCreated Being Called Testing Added ")
     }
 
     override fun onStart() {
